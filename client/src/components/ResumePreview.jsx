@@ -1,4 +1,3 @@
-import React from 'react'
 import ClassicTemplate from './templates/classicTemplate';
 import ModernTemplate from './templates/modernTemplate';
 import MinimalTemplate from './templates/minimalTemplate';
