@@ -8,6 +8,7 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Provider store={store}>
       <App />
+      {console.log(import.meta.env.VITE_BASE_URL)}
     </Provider>
   </BrowserRouter>
 )
