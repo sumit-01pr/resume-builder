@@ -1,7 +1,7 @@
-import ClassicTemplate from './templates/classicTemplate';
-import ModernTemplate from './templates/modernTemplate';
-import MinimalTemplate from './templates/minimalTemplate';
-import MinimalImageTemplate from './templates/minimalImageTemplate';
+import ModernTemplate from './templates/ModernTemplate';
+import MinimalTemplate from './templates/MinimalTemplate';
+import MinimalImageTemplate from './templates/MinimalImageTemplate';
+import ClassicTemplate from './templates/ClassicTemplate';
 
 function ResumePreview({data, template, accentColor,classes=''}) {
     const renderTemplate = () => {
